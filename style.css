@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 80%;
+    display: block;
+}
+
+label,p,
+input[type="submit"] {
+    display: block;
+    color: rgb(187, 25, 25);
+}
+/*nav styles*/
+
+nav{
+    color: rgb(10, 4, 44);
+    background-color: palegreen;
+    border: 3px solid green;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+ol  {
+    display: flex;
+    justify-content: flex-end;
+}
+.A{
+    color: yellow;
+}
+.B{
+    color: indianred;
+}
+.C{
+    color: indigo;
+}
+.D{
+    color:blanchedalmond;
+}
+.E{
+    color: aqua;
+}
+
+ol li{
+    list-style: none;
+    padding: 1rem;
+    
+}
+
+li a:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+header,main,article,aside,footer{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    background-color: khaki;
+}
+
+button{
+    color: rgb(211, 193, 29);
+}
+
+button:hover{
+    color: blue;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: indigo;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+main{
+    color: blue;
+    background-color: lightskyblue;
+    border: 3px solid blue;
+    padding: 0;
+    display: flex;
+}
+
+
+article,aside{
+    color:blue ;
+    background-color: cornflowerblue;
+    border: 3px solid blue;
+}
+
+
+article{
+    width: 70%;
+}
+
+aside{
+    width:50%;
+}
+
+ul{
+    text-decoration: underline;
+    border-bottom: 4px dotted rgb(18, 25, 129);
+    border-left: 8px dashed rgb(180, 45, 45);
+}
+
+ul a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+section{
+    color: indigo;
+    background-color: rgb(154, 221, 20);
+    border: 3px solid indigo;
+}
+
+
+footer{
+    color:rgb(255,86,16);
+    border:3px solid rgb(255,86,16);
+    background:palegoldenrod;
+}
+
+p{
+    color: rgb(226, 30, 30);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTORIALS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigations-->
+     <nav>
+        <ol>
+            <li class="A"><a href="#">HOME</a></li>
+            <li class="B"><a href="#">ABOUT</a></li>
+            <li class="C" ><a href="#">WORK</a></li>
+            <li class="D"><a href="#">RESUME</a></li>
+            <li class="E"><a href="#">CONTACT</a></li>
+        </ol>
+     </nav>
+
+    <!--header-->
+     <header>
+        <h1>Ezeliora Samson</h1>
+        <img src="latest.jpg" alt="picture of me">
+        <button>Check out more</button>
+     </header>
+
+    <main>
+    <!--About Section-->
+        <article>
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae debitis <br>iusto ipsum quos animi vel ullam deserunt sapiente itaque.</p>
+        </article>
+
+    <!--Work Section-->
+        <article> 
+            <h3>Work Exp.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti fugiat odit <br>incidunt sequi aliquid ipsum voluptatum expedita veritatis in eligendi.</p>
+        </article>
+
+    <!--Resume Section-->
+        <aside>
+            <h4>RESUME</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At suscipit, doloremque<br> tempora quas ea qui id similique earum hic repellendus!</p>
+            <ul>
+                <li><a href="#">WEB DEV. CHECKPOINT</a></li>
+                <li><a href="#">GIT CHECKPOINT</a></li>
+                <li><a href="#">WEBPAGE CHECKPOINT</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!--Contact-->
+    <section>
+        <h5>Stay in Touch ...</h5>
+        <p>Plz swing by for a cup of coffee,or drop a message!</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Your Email" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Your password" required>
+            <label for="number">Number</label>
+            <input type="number" placeholder="Enter your Number">
+            
+
+            <br>
+            <p>select your gender:</p>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other
+
+            <p>select your age:</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="26-50" id="option-2">
+            <label for="option-2">26-50</label>
+            <input type="radio" name="age" value="51+" id="option-3">
+            <label for="option-3">51+</label>
+
+            
+            <label for="question">Security question :</label>
+            <select name="question" id="question">
+                <option value="q1">What color are your favourite pair of socks?</option>
+                <option value="q2">What is your mother maiden name?</option>
+                <option value="q3">What is your place of birth?</option>    
+            </select>
+            <br>
+
+            <label for="answer">Security question answers :</label>
+            <input type="text" id="answer" name="answer">
+            <br><br>
+            <label for="bio">Your bio:</label>
+            <textarea  name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+            <input type="submit" placeholder="Submit">
+            <button type="submit">Save</button>
+        </form>
+    </section>
+
+    <!--Page Footer-->
+    <footer>
+        <h6>Designer:Ezeliora Samson</h6>
+        <p><a href="mailto:samlessq@gmail.com">samlessq@gmail.com</a></p>
+        <p><a href="contact:07067194790">07067194790</a></p>
+        <p>Copyright & copy;2023</p>
+    </footer>
+          
+</body>
+</html>
